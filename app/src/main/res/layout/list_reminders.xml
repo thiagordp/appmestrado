@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@color/colorBackground"
+    android:columnCount="2"
+    android:rowCount="3">
+
+    <TextView
+        android:id="@+id/tvNameList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Nome"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMessageList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:maxLines="6"
+        android:textStyle="italic"
+        android:minLines="1"
+        android:text="Mensagem"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvTypeList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Tipo"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvDateTimeList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Hora"
+        android:textSize="22sp" />
+</GridLayout>
